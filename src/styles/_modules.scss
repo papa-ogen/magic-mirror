@@ -1,0 +1,10 @@
+.modules-header-content {
+	padding: 1rem;
+}
+
+.modules {
+  & > .module-settings {
+		max-height: 300px;
+		margin: 0;
+	}
+}
