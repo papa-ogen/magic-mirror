@@ -1,6 +1,6 @@
-import React from 'react'
-import {Link} from 'react-router'
-import { IconLogo, IconLock, IconStar }  from './Icons'
+import React from 'react';
+import {Link} from 'react-router';
+import { IconLogo, IconLock, IconStar }  from '../icons';
 
 const Header = () => {
   return (

@@ -5,6 +5,9 @@ This project is based on: https://github.com/coryhouse/react-slingshot
 * Open Terminal, go to directory
 * Run: npm start -s
 
+## Prod
+* Run: npm run build
+
 
 ## About SVGs
 * https://css-tricks.com/scale-svg/

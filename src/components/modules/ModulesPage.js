@@ -1,5 +1,5 @@
 import React from 'react';
-import {IconBell}  from '../common/icons.js'
+import {IconBell}  from '../icons';
 
 const Module = () => {
   return (

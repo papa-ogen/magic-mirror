@@ -1,7 +1,7 @@
 import React from 'react';
 import {IconLayout, IconSelfie, IconSettings, 
         IconSearch, IconModules, IconBell, IconCalendar,
-      IconCloud}  from '../common/icons.js'
+      IconCloud}  from '../icons';
 
 const Mirror = () => {
   return (
@@ -10,8 +10,8 @@ const Mirror = () => {
 				<ul className="mirror-settings-menu">
 					<li>
 						<a href="#/">
-            <IconLayout />
-						Layouts
+							<IconLayout />
+							Layouts
 						</a>
 						<div className="mirror-settings-list-wrapper bg-lightest-blue">
 							<ul className="mirror-settings-list">
@@ -23,21 +23,19 @@ const Mirror = () => {
 					</li>
 					<li>
 						<a href="#/">
-            <IconSelfie />
-						Take selfie
+							<IconSelfie />
+							Take selfie
 						</a>
 						<div className="mirror-settings-list-wrapper bg-lightest-blue">
 							<ul className="mirror-settings-list">
 								<li>Selfie Time!</li>
-								<li></li>
-								<li></li>
 							</ul>
 						</div>
 					</li>
 					<li>
 						<a href="#/">
-            <IconSettings />
-						Settings
+							<IconSettings />
+							Settings
 						</a>
 						<div className="mirror-settings-list-wrapper bg-lightest-blue">
 							<ul className="mirror-settings-list">
@@ -60,19 +58,19 @@ const Mirror = () => {
 								<ul className="module-search-list">
 									<li>
 										<a href="#/">
-                      <IconSettings />
+											<IconSettings />
 											<strong>Reminder</strong> - lorem ipsum
 										</a>
 									</li>
 									<li>
 										<a href="#/">
-                      <IconSelfie />
+											<IconSelfie />
 											<strong>Photos</strong> - lorem ipsum
 										</a>
 									</li>
 									<li>
 										<a href="#/">
-                      <IconModules className="icon small-icon" />
+											<IconModules className="icon small-icon" />
 											<strong>Training</strong> - lorem ipsum
 										</a>
 									</li>
@@ -122,7 +120,7 @@ const Mirror = () => {
 							</div>
 						</div>
 						<div className="module">
-              <IconCalendar className="icon" />
+							<IconCalendar className="icon" />
 							<div className="module-settings bg-lightest-blue">
 								<div className="module-settings-inner">
 									<header>
@@ -144,18 +142,17 @@ const Mirror = () => {
 					</div>
 				</div>
 				<div className="col-xs">
-					<div className="box">
-					</div>
+					<div className="box" />
 				</div>
 				<div className="col-xs">
 					<div className="box">
 						<div className="module">
-              <IconCloud className="icon" />
+							<IconCloud className="icon" />
 							<div className="module-settings bg-lightest-blue">
 								<div className="module-settings-inner">
 									<header>
-                    <IconCloud />
-                    <h2>Weather</h2>
+										<IconCloud />
+										<h2>Weather</h2>
 										<div className="form-field-wrapper">
 											<input type="checkbox" id="active-bell" checked /><label htmlFor="active-bell">Active</label>
 										</div>
