@@ -26,7 +26,7 @@ const App = (props) => {
                             </NavItem>
                             <NavItem to="/mirror" className="sub-nav-pink">
                                 <IconMirror />
-                                Profile
+                                Mirror
                             </NavItem>
                             <NavItem to="/modules" className="sub-nav-lightest-blue">
                                 <IconModules />
